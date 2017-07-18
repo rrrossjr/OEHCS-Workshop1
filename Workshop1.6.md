@@ -2,7 +2,7 @@
 
 Select Oracle Event Hub Cloud Service – Platform from the Cloud Service menu.
 
-![](images/300/KafkaCluster3.png)
+![](images/300/kafkaCluster3.png)
 
 You will be taken to the Event Hub CS – Platform landing page. Click on “Go to Console”
 
