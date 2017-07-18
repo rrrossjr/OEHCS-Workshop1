@@ -146,4 +146,4 @@ Depending on the state of your Cloud Account, you will need to set the **Replica
 
 # Next Steps
 
-Proceed to [GainAccessToGSECloud.md](GainAccessToGSECloud.md) to provision your BDCS-CE instance.
+Proceed to [Workshop1.3.md](Workshop1.3.md) to provision your BDCS-CE instance.
