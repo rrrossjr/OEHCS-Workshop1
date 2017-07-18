@@ -6,13 +6,13 @@ Select Oracle Event Hub Cloud Service – Platform from the Cloud Service menu.
 
 You will be taken to the Event Hub CS – Platform landing page. Click on “Go to Console”
 
-![](images/300/KafkaCluster2.png)
+![](images/300/kafkaCluster2.png)
 
 Click on “Create Service”
 
 Fill the required details like Service Name and Description as shown below and click on "Next"
 
-![](images/300/KafkaCluster4.png)
+![](images/300/kafkaCluster4.png)
 
 Once clicked on "Next" will be landed to Next page to fill in the information 
 - Deployment Type :- There are two options available "Basic" and "Recommended".
