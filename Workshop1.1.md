@@ -10,7 +10,7 @@
 - Batch processing
 
 
-**If you are an Oracle Employee/Partner with access to GSE (demo.oracle.com), you should follow the alternate Lab 100GSE instructions available here: [GainAccessToGSECloud.md](GainAccessToGSECloud.md)**
+**If you are an Oracle Employee/Partner with access to GSE (demo.oracle.com), you should follow the alternate Lab 100GSE instructions available here: [Workshop1.2.md](Workshop1.2.md)**
 
 
 # Oracle Trial Account
