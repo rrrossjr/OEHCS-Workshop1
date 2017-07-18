@@ -76,7 +76,7 @@ Lets now use Kafka Console producer and consumer to test this topic.
 For this you need to install Kafka 0.10.2.0.0 binaries on your laptop/desktop.
 Once installed go to location where you installed KAFKA called KAFKA_HOME
 
-![](images/300/Kafka_Bin.png)
+![](images/300/Kafka_Bin.PNG)
 
 Get the Public IP address from the OEHCSWorkshop
  details page. The Public IP is listed in the details page.
@@ -108,7 +108,7 @@ We can also use REST Proxy to list topics, produce and consume messages. Lets lo
 
 Get the REST proxy details from the Kafka Service (Platform) overview, by clicking on the service name. Note down the Public IP.
 
-![](images/300/RestApi.png)
+![](images/300/RestApi.PNG)
 
 Lets use REST call to list out topics. You can use any REST client of your choice(postman, a chrome addon is good). we are showing using curl.
 
@@ -118,7 +118,7 @@ Command to list the topics using curl
 
 curl -i -X GET -u 'admin:Welcome123' -H 'X-ID-TENANT-NAME: cloud.admin' -H 'Accept: application/json' 'https://141.144.29.129:1080/restproxy/topics' -k
 
-![](images/300/RestApi_list.png)
+![](images/300/RestApi_list.PNG)
 
 ### To Consume messages
 Steps:
@@ -133,7 +133,7 @@ REST URL format: /restproxy/consumers/{groupName}
 curl -i -X POST -u "admin:Welcome123" -H "X-ID-TENANT-NAME: cloud.admin" -H "Accept:application/json" "https://141.144.29.129:1080/restproxy/consumers/myTestGroup1" -k
 
 
-![](images/300/kafkaconsumergroups.png)
+![](images/300/Kafkaconsumergroups.PNG)
 
 - Consume message from a Topic: Make a GET call as below
 REST URL Format: /restproxy/consumers/{groupName}/instances/{consumerInstanceId}/topics/{topicName}
@@ -154,7 +154,7 @@ Command to send and receive messages from Windows using curl command first list 
 curl -i -X GET -u "admin:Welcome123" -H "X-ID-TENANT-NAME: cloud.admin" -H "Accept: application/json" "https://141.144.29.129:1080/restproxy/topics" -k
 
 
-![](images/300/commandfromwindows.png)
+![](images/300/Commandfromwindows.png)
 
 Now send some messages and consume.
 
@@ -169,7 +169,7 @@ Below is the command to send the message to Kafka
 curl -i -X POST -u "admin:Welcome123" -H "cache-control: no-cache"   -H "content-type: application/vnd.kafka.v1+json" -H "X-ID-TENANT-NAME: gse00010212" "https://141.144.29.129:1080/restproxy/topics/gse00010212-kafkaforoehpcs" --data "{ \"records\":[ {\"key\":\"name\",\"value\":\"Y29uZmx1ZW50\" }] }" -k
 
 
-![](images/300/postjson.png)
+![](images/300/postjson.PNG)
 
 command to receive the message
 
