@@ -104,8 +104,8 @@ Log in using the following credentials
 - Password: Welcome321
 ![](images/100GSE/picture-17.png)
 
-At this point, you can use the pre-created “myBDCSCE” instance and start with [EventHubCloudService.md](EventHubCloudService.md)
+At this point, you can use the pre-created “myBDCSCE” instance and start with [Workshop1.2.md](Workshop1.2.md)
 
 OR
 
-You can optionally follow the instructions in [BDCSCECreation.md](BDCSCECreation.md) and create a new BDCSCE instance on your own. 
+You can optionally follow the instructions in [Workshop1.3.md](Workshop1.3.md) and create a new BDCSCE instance on your own. 
