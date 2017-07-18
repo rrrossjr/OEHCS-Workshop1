@@ -12,7 +12,7 @@ Click on “Create Service”
 
 Fill the required details like Service Name and Description as shown below and click on "Next"
 
-![](images/300/kafkaCluster4.png)
+![](images/300/KafkaCluster4.png)
 
 Once clicked on "Next" will be landed to Next page to fill in the information 
 - Deployment Type :- There are two options available "Basic" and "Recommended".
@@ -35,7 +35,7 @@ Kafka Service is now created
 
 Click on Serivce Name for getting Details of the service.
 
-![](images/300/KafkaCluster7.png)
+![](images/300/KafkaCluster7.PNG)
 
 ## Access Rules
 For you to work with the Kafka platform just created, you need to open up Kafka and Zookeeper ports to work with your publishers and consumers.
@@ -67,7 +67,7 @@ From the Menu next to “Oracle Event Hub Cloud Service – Platform” header, 
 
 Click on “Create Service” from the Create Service Page
 
-![](images/300/Serviceinfo.png)
+![](images/300/ServiceInfo.png)
 
 
 # Using the Service
@@ -76,16 +76,16 @@ Lets now use Kafka Console producer and consumer to test this topic.
 For this you need to install Kafka 0.10.2.0.0 binaries on your laptop/desktop.
 Once installed go to location where you installed KAFKA called KAFKA_HOME
 
-![](images/300/Kafka_bin.png)
+![](images/300/Kafka_Bin.png)
 
 Get the Public IP address from the OEHCSWorkshop
  details page. The Public IP is listed in the details page.
 
- ![](images/300/Kafka_Details.png)
+ ![](images/300/Kafka_Details.PNG)
 
 Lets list the kafka topics using kafka-topics.sh script.
 
- ![](images/300/Kafka_list_topic.png)
+ ![](images/300/Kafka_list_topic.PNG)
 
 once the topic we created is shown as above we can try sending some messages and receiving messages.
 
