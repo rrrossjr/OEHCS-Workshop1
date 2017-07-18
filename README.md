@@ -53,7 +53,7 @@ You will learn how to produce and consume your data  from a Kafka cluster using 
 
 - Signup for a Oracle Cloud Trial
 
-## Lab Workshop1.2: ALTERNATIVE VERSION of Lab 100 for Oracle Employees and Partners with access to GSE "Deal Server" environments
+## Lab Workshop1.2: ALTERNATIVE VERSION of Workshop1.1 for Oracle Employees and Partners with access to GSE "Deal Server" environments
 
 **Documenation**: [Workshop1.2.md](Workshop1.2.md)
 
